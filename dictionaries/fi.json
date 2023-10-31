@@ -1,0 +1,16 @@
+{
+  "navigation": {
+    "home": "Koti",
+    "about": "Tietoja"
+  },
+  "page": {
+    "home": {
+      "title": "Tervetuloa NextJs i18n:ään",
+      "description": "Kansainvälistäminen NextJs 13 App reitittimessä"
+    },
+    "about": {
+      "title": "Meistä",
+      "description": "Tämä on tietoja-sivu"
+    }
+  }
+}
