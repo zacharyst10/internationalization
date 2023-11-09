@@ -3,6 +3,7 @@ import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
 import LocaleSwitcher from './locale-switcher'
 import ThemeToggle from '../../../components/ThemeToggle'
+import HeroNav from '@/components/Navigation'
 
 export default async function Header({ lang }: { lang: Locale }) {
   const { navigation } = await getDictionary(lang)
@@ -18,6 +19,7 @@ export default async function Header({ lang }: { lang: Locale }) {
             <Link href={`/${lang}/about`}>{navigation.about}</Link>
           </li>
         </ul>
+        <HeroNav />
         <LocaleSwitcher />
         <ThemeToggle />
       </nav>
