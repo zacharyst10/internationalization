@@ -15,6 +15,16 @@
       "title": "Sobre Nosotros",
       "description": "Esta es la página sobre nosotros"
     },
+    "gettingStarted": {
+      "shadcnUI": "shadcnUI",
+      "subtext": "Componentes bellamente diseñados construidos con Radix UI y Tailwind CSS.",
+      "introductionHeader": "Introducción",
+      "introductionSubtext": "Componentes reutilizables construidos con Radix UI y Tailwind CSS.",
+      "installationHeader": "Instalación",
+      "installationSubtext": "Cómo instalar dependencias y estructurar tu aplicación.",
+      "typographyHeader": "Tipografía",
+      "typographySubtext": "Estilos para encabezados, párrafos, listas, etc."
+    },
     "components": [
       {
         "title": "Diálogo de Alerta",
