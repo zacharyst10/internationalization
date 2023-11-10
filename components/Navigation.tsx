@@ -14,6 +14,9 @@ import {
   navigationMenuTriggerStyle
 } from '@/components/ui/navigation-menu'
 
+import { Locale } from '@/i18n.config'
+import { getDictionary } from '@/lib/dictionary'
+
 const components: { title: string; href: string; description: string }[] = [
   {
     title: 'Alert Dialog',
@@ -51,12 +54,16 @@ const components: { title: string; href: string; description: string }[] = [
   }
 ]
 
-export default function HeroNav() {
+export default async function HeroNav({ lang }: { lang: Locale }) {
+  const { navigation, page } = await getDictionary(lang)
+
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger>
+            {navigation.gettingStarted}
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className='grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
               <li className='row-span-3'>

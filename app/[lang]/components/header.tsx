@@ -19,7 +19,7 @@ export default async function Header({ lang }: { lang: Locale }) {
             <Link href={`/${lang}/about`}>{navigation.about}</Link>
           </li>
         </ul>
-        <HeroNav />
+        <HeroNav lang={lang} />
         <LocaleSwitcher />
         <ThemeToggle />
       </nav>
