@@ -1,0 +1,45 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "gettingStarted": "Comenzando",
+    "components": "Componentes",
+    "documentation": "Documentación"
+  },
+  "page": {
+    "home": {
+      "title": "Bienvenido a NextJs i18n",
+      "description": "Internacionalización en NextJs 13 App router"
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "description": "Esta es la página sobre nosotros"
+    },
+    "components": [
+      {
+        "title": "Diálogo de Alerta",
+        "description": "Un diálogo modal que interrumpe al usuario con contenido importante y espera una respuesta."
+      },
+      {
+        "title": "Tarjeta Flotante",
+        "description": "Para que los usuarios con visión previa del contenido disponible detrás de un enlace."
+      },
+      {
+        "title": "Progreso",
+        "description": "Muestra un indicador que muestra el progreso de finalización de una tarea, típicamente mostrado como una barra de progreso."
+      },
+      {
+        "title": "Área de Desplazamiento",
+        "description": "Separa visual o semánticamente el contenido."
+      },
+      {
+        "title": "Pestañas",
+        "description": "Un conjunto de secciones de contenido en capas, conocidas como paneles de pestañas, que se muestran una a la vez."
+      },
+      {
+        "title": "Tooltip",
+        "description": "Un popup que muestra información relacionada con un elemento cuando el elemento recibe enfoque del teclado o el ratón pasa sobre él."
+      }
+    ]
+  }
+}
